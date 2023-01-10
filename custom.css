@@ -1,13 +1,36 @@
-li{
-    padding-top: 15px;
+
+body > header {
+    padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
-/*
-    rgba(33, 33, 33, 0.9)
+body {
+    grid-template-columns: 1fr min(60rem, 40%) 1fr;
+}
 
-    #484644
-    #2e2e2e
-    #333333
-    #212121
-    #242100
-*/
+nav {
+    margin: 1;
+}
+
+h3 {
+    margin: 1; 
+    padding: 1;
+}
+
+li{
+    padding-top: 5px;
+}
+
+ul{
+    padding-top: 5px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pcpp-part-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    align-content: center;
+    display: table;
+}
